@@ -26,7 +26,7 @@ class Config:
     MODEL_NAME = "ollama/llama3.2:latest"
     API_BASE = "http://localhost:11434"
     SESSION_DURATION_MINUTES = 20
-    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "sk_b0b1edcc7ae4ae43503cb6f52f3c4768b8f6a70c4f82ee32")
+    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "api_key_here")
     ELEVENLABS_VOICE_ID = "pNInz6obpgDQGcFmaJgB"  # Adam voice - confident male voice
     TTS_LANGUAGE = "en"
     DATABASE_PATH = "coach_sessions.db"
